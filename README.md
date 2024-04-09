@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/d2ClRzof)
 # lab5-rtos-skeleton
 
-    * Name: 
-    * Github username: 
+    * Name: Jessi Jha
+    * Github username: jsjha
     * Github Repository URL: 
     * Description of hardware: (embedded hardware, laptop, etc)
 
@@ -22,9 +22,9 @@ The CPU cloack is configured by setting the configUSE_TIMERS to 1, which creates
 
 The tasks.c file uses various configuration parameters to determine which functionalities regarding tasks should be enabled. For example, when configUSE_16_BIT_TICKS is set to 1, then a bit is defined to ensure that that the value of the task priority is not changed. 
 
-The queue.c file defines the type of queue used by the scheduler. 
+The queue.c file defines the type of queue used by the scheduler. Ques are used for communication between tasks and snychronization. 
 
-The list.c file defines the structure of the lists that are used by queue.c and tasks.c.
+The list.c file defines the structure of the lists that are used by queue.c and tasks.c. It is a file that organizes data structures used in FreeRTOS. 
 
 4. What are the different task states possible? What transitions are possible? (You may attach a diagram).
 
