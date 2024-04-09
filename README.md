@@ -148,7 +148,7 @@ The dudy cycle is about what we expected. However, we used the TaskDelay() funct
 
 24. How does this affect the schedule? Do any tasks miss their deadlines?
 
-Yes, task miss their deadlines. The total utilization no longer passes the UB test because of the increased CPU time of task C.
+Yes, task miss their deadlines. The total utilization no longer passes  the UB test because of the increased CPU time of task C; the test is now inconclusive. 
 
 ### 3. RMS - Blocking
 
